@@ -1,0 +1,16 @@
+if SHIELD_DESKINY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "DESKINY"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif #LEFT
+
+if SHIELD_DESKINY_LEFT || SHIELD_DESKINY_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif

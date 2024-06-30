@@ -1,0 +1,5 @@
+config SHIELD_DESKINY_LEFT
+    def_bool $(shields_list_contains,Deskiny_left)
+    
+config SHIELD_DESKINY_RIGHT
+    def_bool $(shields_list_contains,Deskiny_right)
